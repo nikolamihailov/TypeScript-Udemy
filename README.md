@@ -1,1 +1,1 @@
-# TypeScript from Udemy
+# TypeScript from Udemy by Maximilian Schwarzmüller
