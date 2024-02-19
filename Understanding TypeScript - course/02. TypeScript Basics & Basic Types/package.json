@@ -13,7 +13,7 @@
   ],
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
+  "dependencies": {
+    "lite-server": "^2.6.1"
   }
 }
