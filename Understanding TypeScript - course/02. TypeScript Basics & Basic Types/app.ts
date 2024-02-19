@@ -72,3 +72,18 @@ for (const hobby of person2.hobbies) {
   console.log(hobby.toUpperCase());
   // console.log(hobby.map()) we will get an error
 }
+
+// ENUMS
+
+enum Role {
+  ADMIN, // equivalent to 0 by default
+  USER, // equivalent to 1
+}
+
+const person3 = {
+  name: "kolo3",
+  age: 25,
+  role: Role.ADMIN,
+};
+
+console.log(person3.role); // 0
