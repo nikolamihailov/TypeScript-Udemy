@@ -40,12 +40,27 @@ ts will infer this type from the object above
 
 // ARRAYS
 
-const person2 = {
+const person2: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  // tuple example - fixed length array, array containing only two elements, numbera and a string
+  userType: [number, string];
+} = {
   name: "Kolo2",
   age: 24,
   // hobbies will infer type of string[]
   hobbies: ["training", "playing basketball", "gaming"],
+  userType: [1, "user"],
 };
+
+// push methods are exception and could work with tuplets
+person2.userType.push("asd");
+
+// empty array, type mismatch or more elements will throw
+// person2.userType = [];
+// person2.userType = [1, 1];
+// person2.userType = [1, "asd", 5];
 
 // explicitly setting the type
 let luckyNums: number[];
