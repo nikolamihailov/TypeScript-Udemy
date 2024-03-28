@@ -1,1 +1,1 @@
-# TypeScript courses from Udemy by Maximilian Schwarzmüller 
+# Two TypeScript courses from Udemy by Maximilian Schwarzmüller 
