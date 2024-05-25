@@ -1,1 +1,1 @@
-# React & TypeScript - The Practical Guide by Maximilian Schwarzmüller
+# React & TypeScript - The Practical Guide by Maximilian Schwarzmüller 
