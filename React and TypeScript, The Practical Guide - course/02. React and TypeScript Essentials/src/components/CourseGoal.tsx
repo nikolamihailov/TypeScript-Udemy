@@ -7,20 +7,22 @@
 type CouseGoalProps = {
   title: string;
   description: string;
+  id: number;
+  onDelete: (id: number) => void;
   // if we use children prop
   // children: ReactNode
 };
 
 // type CourseGoalPropsCh = PropsWithChildren<{ title: string }>;
 
-function CourseGoal({ title, description }: CouseGoalProps) {
+function CourseGoal({ title, description, id, onDelete }: CouseGoalProps) {
   return (
     <article>
       <div>
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-      <button>delete</button>
+      <button onClick={() => onDelete(id)}>delete</button>
     </article>
   );
 }
