@@ -1,4 +1,4 @@
-import { type CourseGoal as CourseGoalT } from "../types/Course";
+import { type CourseGoal as CourseGoalT } from "../types/CourseGoal";
 import CourseGoal from "./CourseGoal";
 
 type CourseGoalListProps = {

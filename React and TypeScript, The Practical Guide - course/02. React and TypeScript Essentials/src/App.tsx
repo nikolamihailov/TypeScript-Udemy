@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { type CourseGoal } from "./types/Course";
+import { type CourseGoal } from "./types/CourseGoal";
 import Header from "./components/Header";
 import CourseGoalList from "./components/CourseGoalList";
 import goalsImg from "../public/goals.jpg";
