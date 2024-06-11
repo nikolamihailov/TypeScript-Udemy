@@ -13,11 +13,19 @@ type LinkProps = {
 function Button(props: BtnProps | LinkProps) {
   if (props.el === "link") {
     const { el, text, ...otherProps } = props;
-    return <a {...otherProps}>{text}</a>;
+    return (
+      <a className="button" {...otherProps}>
+        {text}
+      </a>
+    );
   }
 
   const { el, text, ...otherProps } = props;
-  return <button {...otherProps}>{text}</button>;
+  return (
+    <button className="button" {...otherProps}>
+      {text}
+    </button>
+  );
 }
 
 export default Button;
