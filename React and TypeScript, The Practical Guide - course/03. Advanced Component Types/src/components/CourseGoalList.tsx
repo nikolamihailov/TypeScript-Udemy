@@ -15,7 +15,9 @@ export default function CourseGoalList({ goals, onDeleteGoal }: CourseGoalListPr
   return (
     <>
       {goals.length >= 4 && (
-        <InfoBox mode="warning">Relax bro, too many goals, take it easy!</InfoBox>
+        <InfoBox mode="warning" severity="high">
+          Relax bro, too many goals, take it easy!
+        </InfoBox>
       )}
       <ul>
         {goals.map((goal) => (
